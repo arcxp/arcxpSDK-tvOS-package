@@ -49,7 +49,7 @@ extension Target {
     }
     
     static func remoteBinaryURLString(for targetName: String) -> String {
-        return "https://arc-mobile-sdks.s3.amazonaws.com/home/iosArcXPSDK/version_0.0.3/SDK/\(targetName).zip" 
+        return "https://arc-mobile-sdks.s3.amazonaws.com/home/iosArcXPSDK/version_0.0.5/SDK/\(targetName).zip" 
     }
 }
 
@@ -61,8 +61,8 @@ extension String {
     }
     
     enum CheckSum {
-        static let arcXPsdk_CS = "e8eb9526745358aef3fc01579fc7043e978a96dffbac0eb9865f36e05cc5e14c"
-        static let googleAds_CS = "6eddf99a538ee806fc03bcafd12e7a43e945261058b3e3e4eb911d20cc2cb098"
-        static let palSDK_CS = "ebaaee9fdac050c009000059065d62ed2cddf4b19cd442d0ce39021a8453352e"
+        static let arcXPsdk_CS = "a77d84be2fb13b07b4f80f16412c5351d003abeab0bfb998dd49603e0996ee08"
+        static let googleAds_CS = "b4880e6f917414df82e1adef32e17aa6f7c42607321715811caaa41c113cc473"
+        static let palSDK_CS = "3b1ce82bdda0b75cc5b52a7612fbf527a1e77c3129897110deb6938731d89405"
     }
 }
