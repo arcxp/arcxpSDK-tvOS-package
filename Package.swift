@@ -61,8 +61,8 @@ extension String {
     }
     
     enum CheckSum {
-        static let arcXPsdk_CS = "249d6c749a11794bf4f5c1bc55b1c186e183c59cd16dfa0bc86824f5b91aae08"
-        static let googleAds_CS = "285311a2fb5a603611abbcd6f61fe30b363399017e6dd2f57e5652990807c51a"
-        static let palSDK_CS = "262c428d17cce385995936b0143f599418df46b8a9eb8d8f90d3cec244e0cb31"
+        static let arcXPsdk_CS = "e6f78b882cf9901a61d2b3d75b22a31713538a6606ba72fe1be8fd3925e44f7f"
+        static let googleAds_CS = "6f208a134b535bf0e1b08bbd74e604afd98187f9fe5ee1a5aeb0b1d8c48e6bd5"
+        static let palSDK_CS = "bc994808d128f40c61964974d1ad500640c69978b21734de7bef0875b0a1db42"
     }
 }
