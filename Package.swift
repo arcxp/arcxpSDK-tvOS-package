@@ -49,7 +49,7 @@ extension Target {
     }
     
     static func remoteBinaryURLString(for targetName: String) -> String {
-        return "https://arc-mobile-sdks.s3.amazonaws.com/home/iosArcXPSDK/version_1.0.0/SDK/\(targetName).zip" 
+        return "https://d3mh65msdilczf.cloudfront.net/home/iosArcXPSDK/version_1.0.0/SDK/\(targetName).zip" 
     }
 }
 
